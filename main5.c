@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-/* ax^2+bx+c denkleminin köklerini bulan program*/
+/* ax^2+bx+c denkleminin kÃ¶klerini bulan program*/
 
 int main() {
 	
@@ -19,8 +19,8 @@ int main() {
 	scanf("%d" , &c);
 	
 	delta =  b*b-4*a*c;
-	x1 = (-b-(sqrt(delta))) /2*a;
-	x2 = (-b+(sqrt(delta))) /2*a;
+	x1 = (-b-(sqrt(delta))) /(2*a);
+	x2 = (-b+(sqrt(delta))) /(2*a);
 	
 	printf("Denklemin kokleri %.2f ve %.2f dir." , x1,x2);
 	
